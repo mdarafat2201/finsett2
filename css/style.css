@@ -100,3 +100,43 @@ body {
   opacity: 0.7;
 }
 /* ====================== goal part css end ================= */
+/* ====================== process part css start ================= */
+#process_part {
+  padding: 100px 0;
+}
+#process_part .process_title h2 {
+  color: var(--PrimaryColor, #282938);
+  font-size: 48px;
+  font-weight: 600;
+}
+#process_part .process_title h2 {
+  text-align: center;
+}
+#process_part .process_content .dot_element span {
+  position: relative;
+}
+#process_part .process_content .dot_element span::after {
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 30px;
+  background-color: var(--DotColor);
+  border-radius: 50%;
+  top: -2px;
+  left: 0;
+}
+#process_part .process_content .dot_element img {
+  margin-left: 45px;
+}
+#process_part .process_content .process_text h2 {
+  color: var(--PrimaryColor, #282938);
+  font-size: 20px;
+  font-weight: 500;
+}
+#process_part .process_content .process_text p {
+  color: var(--PrimaryColor, #282938);
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 28px;
+}
+/* ====================== process part css end ================= */
