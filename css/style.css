@@ -51,3 +51,27 @@ body {
   color: var(--WhteColor);
 }
 /* ====================== navbar part css end ================= */
+/* ====================== about part css start ================= */
+#abuot_part {
+  padding: 220px 0 228px;
+}
+#abuot_part .about_left h5 {
+  color: var(--PrimaryColor, #282938);
+  font-size: 18px;
+  font-weight: 500;
+}
+#abuot_part .about_left h1 {
+  color: var(--PrimaryColor, #282938);
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 74px;
+}
+#abuot_part .about_left p {
+  color: var(--PrimaryColor, #282938);
+  text-align: justify;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+}
+/* ====================== about part css end ================= */
