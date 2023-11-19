@@ -21,6 +21,7 @@ img {
   --PrimaryColor: #282938;
   --DotColor: #2405f2;
   --WhteColor: #fff;
+  --BannerColor: #f4f5f5;
 }
 body {
   font-family: "Poppins", sans-serif;
@@ -75,3 +76,27 @@ body {
   opacity: 0.7;
 }
 /* ====================== about part css end ================= */
+/* ====================== goal part css start ================= */
+#goal_part .goal_text {
+  background-color: var(--BannerColor);
+  padding: 80px 0;
+}
+#goal_part .goal_text .goal_content h5 {
+  color: var(--PrimaryColor, #282938);
+  font-size: 16px;
+  font-weight: 500;
+}
+#goal_part .goal_content h2 {
+  color: var(--PrimaryColor, #282938);
+  font-size: 33px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+#goal_part .goal_content p {
+  color: var(--PrimaryColor, #282938);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+}
+/* ====================== goal part css end ================= */
