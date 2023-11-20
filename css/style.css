@@ -102,7 +102,7 @@ body {
 /* ====================== goal part css end ================= */
 /* ====================== process part css start ================= */
 #process_part {
-  padding: 100px 0;
+  padding: 110px 0;
 }
 #process_part .process_title h2 {
   color: var(--PrimaryColor, #282938);
@@ -205,7 +205,7 @@ body {
 /* ====================== working part css end ================= */
 /* =============  footer part css start =========== */
 #footer_part {
-  padding: 100px 0;
+  padding: 101px 0;
   background: var(--HeaderFooter);
 }
 #footer_part .footer_left p {
