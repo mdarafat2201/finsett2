@@ -164,3 +164,158 @@ body {
   opacity: 0.7;
 }
 /* ====================== mission part css end ================= */
+/* ====================== working part css start ================= */
+#working_part {
+  padding: 130px 0;
+}
+#working_part .headinag h2 {
+  color: var(--PrimaryColor, #282938);
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+}
+#working_part .working_content {
+  background-color: var(--BannerColor);
+}
+#working_part .working_content .icons_box {
+  padding: 50px 32px 48px 48px;
+}
+#working_part .working_content .icons_box h3 {
+  color: var(--PrimaryColor, #282938);
+  font-size: 24px;
+  font-weight: 500;
+}
+#working_part .working_content .icons_box p {
+  color: var(--PrimaryColor, #282938);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+}
+#working_part .text1 h3 {
+  color: var(--PrimaryColor, #282938);
+  font-size: 38px;
+  font-weight: 600;
+}
+#working_part .text1 p {
+  color: var(--PrimaryColor, #282938);
+  font-size: 16px;
+  font-weight: 400;
+}
+/* ====================== working part css end ================= */
+/* =============  footer part css start =========== */
+#footer_part {
+  padding: 100px 0;
+  background: var(--DotColor);
+}
+#footer_part .footer_left p {
+  color: var(--WhteColor, #fff);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-top: 22px;
+  opacity: 0.8;
+}
+#footer_part .footer_left .footer_contact {
+  margin-top: 86px;
+  background-color: #fcd980;
+}
+#footer_part .footer_left .footer_contact .contact ul li .text_titel {
+  color: var(--PrimaryColor, #282938);
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 22px;
+}
+#footer_part .footer_left .footer_contact .contact ul li .type_email {
+  color: var(--PrimaryColor, #282938);
+  font-size: 16px;
+  font-weight: 400;
+}
+#footer_part .footer_right h2 {
+  color: var(--WhteColor, #fff);
+  font-size: 48px;
+  font-weight: 600;
+}
+#footer_part .footer_right p {
+  color: var(--WhteColor, #f4f6fc);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.8;
+}
+#footer_part .footer_right .icons {
+  margin-top: 40px;
+}
+#footer_part .footer_right .icons a {
+  margin-left: 10px;
+}
+#footer_part .footer_right .icons a [class="fa-brands fa-facebook"] {
+  width: 40px;
+  height: 40px;
+  background-color: #3d6d9c;
+  border-radius: 50%;
+  line-height: 40px;
+  text-align: center;
+  transition: all linear 0.3s;
+}
+#footer_part .footer_right .icons a [class="fa-brands fa-facebook"]:hover {
+  background: rgb(128, 124, 0);
+  color: #fff;
+  transform: translateY(-30%);
+}
+#footer_part .footer_right .icons a [class="fa-brands fa-twitter"] {
+  width: 40px;
+  height: 40px;
+  background-color: #983333;
+  border-radius: 50%;
+  line-height: 40px;
+  text-align: center;
+  transition: all linear 0.3s;
+}
+#footer_part .footer_right .icons a [class="fa-brands fa-twitter"]:hover {
+  background: rgb(21, 0, 128);
+  color: #fff;
+  transform: translateY(-30%);
+}
+#footer_part .footer_right .icons a [class="fa-brands fa-instagram"] {
+  width: 40px;
+  height: 40px;
+  background-color: #4c9833;
+  border-radius: 50%;
+  line-height: 40px;
+  text-align: center;
+  transition: all linear 0.3s;
+}
+#footer_part .footer_right .icons a [class="fa-brands fa-instagram"]:hover {
+  background: rgb(96, 128, 0);
+  color: #fff;
+  transform: translateY(-30%);
+}
+#footer_part .footer_right .icons a [class="fa-brands fa-linkedin-in"] {
+  width: 40px;
+  height: 40px;
+  background-color: #603398;
+  border-radius: 50%;
+  line-height: 40px;
+  text-align: center;
+  transition: all linear 0.3s;
+}
+#footer_part .footer_right .icons a [class="fa-brands fa-linkedin-in"]:hover {
+  background: green;
+  color: #fff;
+  transform: translateY(-30%);
+}
+
+/* =============  footer part css end =========== */
+/* =============  footer nav part css start =========== */
+#footer_nav_part .naver_text {
+  color: var(--PrimaryColor, #282938);
+  font-size: 16px;
+  font-weight: 500;
+}
+#footer_nav_part .custom_navbar li a {
+  color: var(--PrimaryColor, #282938);
+  font-size: 16px;
+  font-weight: 500;
+}
+/* =============  footer nav part css end =========== */
