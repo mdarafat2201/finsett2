@@ -206,7 +206,7 @@ body {
 /* =============  footer part css start =========== */
 #footer_part {
   padding: 100px 0;
-  background: var(--DotColor);
+  background: var(--HeaderFooter);
 }
 #footer_part .footer_left p {
   color: var(--WhteColor, #fff);
@@ -319,3 +319,43 @@ body {
   font-weight: 500;
 }
 /* =============  footer nav part css end =========== */
+/* =============  meet  part css start =========== */
+#meet_part {
+  padding: 100px 0;
+  background-color: var(--BannerColor);
+}
+#meet_part .meet_tilie {
+  text-align: center;
+}
+#meet_part .meet_box {
+  text-align: center;
+}
+#meet_part .meet_box .meet_imgs {
+  position: relative;
+  overflow: hidden;
+}
+#meet_part .meet_box .meet_imgs .overlay {
+  position: absolute;
+  top: 0;
+  left: 97px;
+  width: 168px;
+  height: 168px;
+  border-radius: 50%;
+  background: linear-gradient(
+    348deg,
+    #5239fa 17.97%,
+    rgba(255, 255, 255, 0) 79.2%
+  );
+  opacity: 1;
+  transition: all linear 0.3s;
+}
+#meet_part .meet_box .meet_imgs:hover .overlay {
+  opacity: 1;
+}
+#meet_part .meet_box .meet_imgs .overlay .icon {
+  position: absolute;
+  bottom: 13px;
+  left: 56px;
+  color: var(--WhteColor);
+}
+/* =============  meet  part css end =========== */
